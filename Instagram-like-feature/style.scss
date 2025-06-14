@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+
+}
+h1{
+    position: absolute;
+    top: 10%;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+    letter-spacing: 0.2rem;
+    font-weight: 200;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+
+
+    img{
+        width: 20rem;
+        border-radius: .4rem;
+    }
+
+    i{
+        position: absolute; 
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: transform cub 1s  scale(0.5) ;
+        font-size: 5rem; 
+        color: white;
+        opacity: 0; 
+        font-weight: 800;
+    }
+}
+.icon-tray{
+    position: absolute; 
+    top: 83%;
+    left: 40%;
+    font-size: 2rem;
+    color: white;
+
+    #heart-2{
+        color: white;
+        transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
+        cursor: pointer;
+    }
+
+}

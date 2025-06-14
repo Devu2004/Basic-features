@@ -1,0 +1,50 @@
+body,html{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3.5rem;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    padding-top: 2rem;
+}
+.bulb{
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    border: 5px solid beige;;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+button{
+    width: 10rem;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    font-weight: 900;
+    font-family: 'Quicksand';
+    transform: translateX(-50%) translateY(-50%);
+    height: 2rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+button:active{
+    scale: 0.99;
+}

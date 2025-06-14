@@ -1,0 +1,24 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore SCSS generated files
+**/*.css.map
+**/*.css
+
+# But keep CSS if no SCSS is present
+!blog-website/style.css
+!bulb-on-off/style.css
+!contact-us-form/style.css
+!IPL-win-guesser/style.css
+!random-color-genrator/style.css
+!two-column-layout/style.css
+
+# Node or package-related
+node_modules/
+dist/
+build/
+
+# Editor and log files
+.vscode/
+*.log

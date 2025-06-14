@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body , html {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: burlywood;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: sienna;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5rem;
+    padding: 2rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.Box{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-60%);
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid slateblue;
+}
+
+p{
+    background-color: white;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-3  00%);
+    
+    
+}
+.change{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 155px;
+    height: 50px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: sienna;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    margin-top: 40%;
+    padding-bottom: 10rem;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translateX(-50%) translateY(-50%);
+}
+h2{
+    font-size: 2rem;
+    opacity: 0.5;
+    background-color: slateblue;
+    width: 250px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+.Genrator{
+    background-color: sienna;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 145px;
+    border: none;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    height: 33px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+button:active{
+    scale: 0.98;
+}
